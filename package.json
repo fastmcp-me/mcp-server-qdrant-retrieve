@@ -1,8 +1,12 @@
 {
   "name": "@gergelyszerovay/mcp-server-qdrant-retrive",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for semantic search with Qdrant vector database",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gergelyszerovay/mcp-server-qdrant-retrive.git"
+  },
   "type": "module",
   "bin": "dist/index.js",
   "main": "dist/index.js",
@@ -29,10 +33,7 @@
     "@llamaindex/huggingface": "^0.0.45",
     "@llamaindex/qdrant": "^0.1.8",
     "@modelcontextprotocol/sdk": "latest",
-    "chokidar": "^4.0.3",
-    "diff": "^7.0.0",
     "express": "^4.21.2",
-    "find-package-json": "^1.2.0",
     "glob": "^11.0.1",
     "llamaindex": "^0.9.11",
     "meow": "^13.2.0",
@@ -40,7 +41,6 @@
     "openapi3-ts": "^4.4.0",
     "rxjs": "^7.8.1",
     "swagger-ui-express": "^5.0.1",
-    "ts-morph": "latest",
     "zod": "^3.24.2",
     "zod-to-json-schema": "^3.24.1"
   },
